@@ -1,0 +1,25 @@
+#brandImg {
+    width: 100px;
+    height: 50px;
+}
+
+#left-container {
+    background-color: red;
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#right-container {
+    background-color: blue;
+    height: 300px;
+    width: 600px;
+
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
