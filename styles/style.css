@@ -1,25 +1,147 @@
+
+
 #brandImg {
     width: 100px;
     height: 50px;
 }
 
 #left-container {
-    background-color: red;
     height: 300px;
     width: 400px;
-    background-image: url(../images/bg-2.jpg);
+    background-image: url(../images/bg-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
 
 }
 
 #right-container {
-    background-color: blue;
     height: 300px;
-    width: 600px;
-
-    background-image: url(../images/bg-1.jpg);
+    width: 650px;
+    background-image: url(../images/bg-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
+    
+
+    
+}
+
+.left-con-details {
+    padding: 60px;
+    padding-right: 0;
+    margin: 20px 10px 20px 10px;
+    text-align: right;
+
+    h4 {
+        color: #6f5e4d;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 2.25rem;
+        font-weight: 300;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+
+    h5 {
+        color: #6f5e4d;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 2.375rem;
+        font-weight: 500;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+}
+
+.right-con-details {
+    padding: 60px;
+    padding-right: 0;
+    margin: 20px 10px 20px 10px;
+    text-align: right;
+
+    h4 {
+        color: #6f5e4d;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 2.25rem;
+        font-weight: 300;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+
+    h5 {
+        color: #6f5e4d;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 2.375rem;
+        font-weight: 500;
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+}
+
+.red-btn {
+    margin: 15px 0 0 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 13px 32px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+.red-btn:hover {
+    color: #e3000e;
+    background-color: transparent;
+    border-color: #e3000e;
+
+}
+
+.view {
+    
+}
+
+.small-con {
+    margin: 3px;
+}
+
+@media screen and (max-width:768px){
+
+    .left-con-details {
+        padding: 0;
+        margin-top: 90px;
+    
+        h4 {
+            font-size: 1.85rem;
+            font-family: "Oswald", sans-serif;
+        }
+    }
+
+    .right-con-details {
+        padding: 0;
+        margin-top: 90px;
+    
+        h5 {
+            font-size: 1.85rem;
+            font-family: "Oswald", sans-serif;
+        }
+    }
     
 }
