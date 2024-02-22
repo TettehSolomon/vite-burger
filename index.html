@@ -66,23 +66,39 @@
     <!-- main section -->
     <main>
         <!-- slider section -->
-        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./images/bg-1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/bg-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="bg-carousel-details">CRISPY <br> BURGER <br> $8.97 </p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="./images/bg-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p class="bg-carousel-details">DOUBLE <br> BURGER <br> $10.97 </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/bg-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -113,8 +129,107 @@
         <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-3 mb-5">
-                <div>
+                <div class="image-container">
                   <img src="./images/burger-1.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
+                  <div id="burger-card">
+                    <div style="visibility: hidden;">
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star-half-alt star-color"></i>
+										</div>
+                    <div>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star-half-alt star-color"></i>
+										</div>
+                    <h4 class="mt-2">CRISPY CHICKEN</h4>
+                    <p>Chicken breast, chilli sauce, tomatoes, pickles, coleslaw</p>
+                    <a href="#" class="btn"><b>$8.50</b></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-3 mb-5">
+                <div class="image-container">
+                  <img src="./images/burger-2.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
+                  <div id="burger-card">
+                    <div style="visibility: hidden;">
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star-half-alt star-color"></i>
+										</div>
+                    <div>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star-half-alt star-color"></i>
+										</div>
+                    <h4 class="mt-2">ULTIMATE BACON</h4>
+                    <p>House beef patty, cheddar cheese, bacon, onion, mustard</p>
+                    <a href="#" class="btn"><b>$9.99</b></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-3 mb-5">
+                <div class="image-container">
+                  <img src="./images/burger-3.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
+                  <div id="burger-card">
+                    <div style="visibility: hidden;">
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star-half-alt star-color"></i>
+										</div>
+                    <div>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star-half-alt star-color"></i>
+										</div>
+                    <h4 class="mt-2">BLACK SHEEP</h4>
+                    <p>American cheese, tomato relish, avocado, lettuce, onion</p>
+                    <a href="#" class="btn"><b>$9.75</b></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-3 mb-5">
+                <div class="image-container">
+                  <img src="./images/burger-4.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
+                  <div id="burger-card">
+                    <div style="visibility: hidden;">
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star-half-alt star-color"></i>
+										</div>
+                    <div>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star star-color"></i>
+											<i class="fas fa-star-half-alt star-color"></i>
+										</div>
+                    <h4 class="mt-2">DOUBLE BURGER</h4>
+                    <p>2 beef patties, cheddar cheese, mustard, pickles, tomatoes</p>
+                    <a href="#" class="btn"><b>$10.35</b></a>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-sm-12 col-md-3 mb-5">
+                <div class="image-container">
+                  <img src="./images/burger-5.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
                   <div id="burger-card">
                     <div style="visibility: hidden;">
 											<i class="fas fa-star star-color"></i>
@@ -136,9 +251,10 @@
                   </div>
                 </div>
               </div>
+
               <div class="col-sm-12 col-md-3 mb-5">
-                <div>
-                  <img src="./images/burger-2.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
+                <div class="image-container">
+                  <img src="./images/burger-6.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
                   <div id="burger-card">
                     <div style="visibility: hidden;">
 											<i class="fas fa-star star-color"></i>
@@ -156,13 +272,14 @@
 										</div>
                     <h4 class="mt-2">SMOKEY HOUSE</h4>
                     <p>Beef patty, cheddar cheese, onion, lettuce, tomatoes</p>
-                    <a href="#" class="btn"><b>$8.95</b></a>
+                    <a href="#" class="btn"><b>$9.50</b></a>
                   </div>
                 </div>
               </div>
+
               <div class="col-sm-12 col-md-3 mb-5">
-                <div>
-                  <img src="./images/burger-3.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
+                <div class="image-container">
+                  <img src="./images/burger-7.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
                   <div id="burger-card">
                     <div style="visibility: hidden;">
 											<i class="fas fa-star star-color"></i>
@@ -180,13 +297,14 @@
 										</div>
                     <h4 class="mt-2">CLASSIC BURGER</h4>
                     <p>Beef, cheddar cheese, ketchup, mustard, pickles, onion</p>
-                    <a href="#" class="btn"><b>$8.95</b></a>
+                    <a href="#" class="btn"><b>$7.95</b></a>
                   </div>
                 </div>
               </div>
+
               <div class="col-sm-12 col-md-3 mb-5">
-                <div>
-                  <img src="./images/burger-4.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
+                <div class="image-container">
+                  <img src="./images/burger-8.jpg" class="card-img-top rounded-top image-fluid" alt="burger_image">
                   <div id="burger-card">
                     <div style="visibility: hidden;">
 											<i class="fas fa-star star-color"></i>
@@ -209,6 +327,21 @@
                 </div>
               </div> 
             </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row gap-3 justify-content-center">
+            <div class="col-sm-12 col-md-2" id="left">
+              
+
+            </div>
+            <div class="col-sm-12 col-md-8" id="middle">
+              
+            </div>
+            <div class="col-sm-12 col-md-2" id="right">
+              
+            </div>
+          </div>
         </div>
     </main>
 
