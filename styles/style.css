@@ -1,5 +1,4 @@
-.bg-carousel-details {
-    padding: 120px; margin-bottom: 100px; font-size: 80px; font-weight: 900; line-height: 90px; -webkit-text-stroke: 3px #c03d13;
+.bg-carousel-details {padding: 120px; margin-bottom: 100px; font-size: 80px; font-weight: 900; line-height: 90px; -webkit-text-stroke: 3px #c03d13;
 }
 
 #brandImg {
@@ -208,7 +207,6 @@
 #left {
     background-image: url(../images/img_15.jpg);
     height: 300px;
-    width: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -219,7 +217,7 @@
 #middle {
     background-image: url(../images/img_16.jpg);
     height: 300px;
-    width: 600px;
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -230,7 +228,7 @@
 #right {
     background-image: url(../images/img_17.jpg);
     height: 300px;
-    width: 300px;
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
