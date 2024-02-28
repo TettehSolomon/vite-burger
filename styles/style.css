@@ -203,10 +203,10 @@
             font-family: "Oswald", sans-serif;
         }
     }
-
 }
 
 /* Careers, Order Now, Gift Cards */
+
 
 #left {
     background-image: url(../images/img_15.jpg);
@@ -289,12 +289,94 @@
 
 }
 
-#appetizers {
+.appetizers {
     color: #e3000e;
     font-family: 'Oswald', sans-serif;
     line-height: 1.3;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0;
-    font-size: 2.75rem;
+    font-size: 38px;
+    margin: 0px;
+    padding: 0 0 55px 0;
+
+
+}
+
+.mini-appetizer {
+    padding: 0 50px 25px 100px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.3;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+
+    p {
+        text-transform: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    h4 {
+        font-size: 29px;
+        padding: 0 0 5px 0;
+        color: #333333;
+    }
+
+    button {
+        border: 0;
+        padding: 3px 8px;
+        color: #757575;
+        background-color: #eaeaea;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+    }
+
+    .doc {
+        margin: -16px 0 0 0; 
+        text-align: left; 
+        padding: 0 0 0 0px;
+    }
+}
+
+.mini-appetizer:hover {
+    button {
+        background-color: #ffc107;
+        color: black;
+    }
+}
+
+.padd {
+    padding-left: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .appetizers {
+        font-size: 1.8rem;
+        padding: 0 0 40px 0;
+    }
+
+    .mini-appetizer{
+        padding: 0px;
+        text-align: center;
+        font-size: 20px;
+    
+    h4 {
+        font-size: 20px;
+        border: 1px solid blue;
+        padding: 0 0 5px 0;
+    }
+
+    p {
+        font-size: 14.5px;
+        border: 1px solid green;
+    }
+
+    .doc {
+        display: none;
+    }
+}
+    
 }
