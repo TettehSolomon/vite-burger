@@ -359,24 +359,32 @@
     }
 
     .mini-appetizer{
-        padding: 0px;
+        padding: 10px 0 10px 0;
         text-align: center;
         font-size: 20px;
+        border: 1px solid black;
     
     h4 {
         font-size: 20px;
-        border: 1px solid blue;
         padding: 0 0 5px 0;
     }
 
     p {
         font-size: 14.5px;
-        border: 1px solid green;
     }
 
     .doc {
         display: none;
     }
 }
+    
+}
+
+.county-banner {
+    background-image: url(../images/bg-50.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
     
 }
